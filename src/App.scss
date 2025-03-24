@@ -13,10 +13,14 @@
   }
   @media (max-width: 425px) {
     margin: 10px;
+    width: 100%;
   }
   .left{
     @media (max-width: 1024px) {
       max-width: 300px;
+    }
+    @media (max-width: 425px) {
+      width: 100%;
     }
     .up{
       display: flex;
@@ -24,6 +28,9 @@
       gap: 21px;
       @media (max-width: 768px) {
         display: none;
+      }
+      @media (max-width: 425px) {
+        width: 100%;
       }
     }
     .price{
@@ -56,6 +63,9 @@
           @media (max-width: 768px) {
             max-width: 200px;
           }
+          @media (max-width: 425px) {
+            width: 100%;
+          }
         }
       }
     }
@@ -64,6 +74,9 @@
       max-width: 600px;
       border-bottom: 1px solid rgba(180, 180, 180, 0.20);;
       padding-bottom: 20px;
+      @media (max-width: 425px) {
+        width: 100%;
+      }
       .prices{
         display: flex;
         align-items: center;
@@ -99,6 +112,9 @@
       .types{
         @media (max-width: 768px) {
           max-width: 300px;
+        }
+        @media (max-width: 425px) {
+          width: 100%;
         }
         display: flex;
         align-items: center;
